@@ -1,0 +1,31 @@
+{
+  "name": "javascript-starter",
+  "version": "1.0.0",
+  "description": "My starter configuration for JavaScript projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "clean": "rm -rf node_modules"
+  },
+  "private": true,
+  "keywords": [
+    "webpack",
+    "eslint"
+  ],
+  "author": "Alex Kelley",
+  "email": "github.com/adkelley",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^1.0.0",
+    "eslint": "^5.11.1",
+    "html-webpack-plugin": "^3.2.0",
+    "sanctuary-style": "^2.0.0",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "sanctuary": "^0.15.0"
+  }
+}
