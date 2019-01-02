@@ -1,7 +1,7 @@
 # javascript-starter
 
 This is my basic webpack && javascript configuration for beginning a project
-in javascript
+in javascript (using sanctuary.js)
 
 Fork or clone this repo to begin
 
