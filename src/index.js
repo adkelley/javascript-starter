@@ -1,24 +1,24 @@
 /* eslint-env node */
 
-import printMe from './print.js';
-const {reduce, concat, map} = require ('sanctuary');
+import printMe from './print.js'
+const {reduce, concat, map} = require ('sanctuary')
 
-function join(list, char) {
-  return reduce (concat) ('') (map (x => concat (x) (char)) (list));
+function join(list, separator) {
+  return reduce (concat) ('') (map (x => concat (x) (separator)) (list))
 }
 
 function component() {
-  const element = document.createElement ('div');
-  const btn = document.createElement ('button');
+  const element = document.createElement ('div')
+  const btn = document.createElement ('button')
 
-  element.innerHTML = join (['Hello', 'Webpack'], ' ');
+  element.innerHTML = join (['Hello', 'Webpack'], ' ')
 
-  btn.innerHTML = 'Click me and check the console';
-  btn.onclick = printMe;
-  element.appendChild (btn);
+  btn.innerHTML = 'Click me and check the console'
+  btn.onclick = printMe
+  element.appendChild (btn)
 
 
-  return element;
+  return element
 }
 
-document.body.appendChild (component ());
+document.body.appendChild (component ())

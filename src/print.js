@@ -1,3 +1,5 @@
-export default function printMe () {
-  console.log('I get called from print.js!')
+/* eslint-env node */
+
+export default function printMe() {
+  console.log ('I get called from print.js!');
 }

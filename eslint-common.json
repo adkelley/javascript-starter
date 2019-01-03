@@ -75,7 +75,7 @@
     "quote-props": ["error", "consistent"],
     "quotes": ["error", "single", {"avoidEscape": true}],
     "radix": ["error", "always"],
-    "semi": ["error", "always", {"omitLastInOneLineBlock": false}],
+    "semi": ["error", "never"],
     "semi-spacing": ["error", {"before": false, "after": true}],
     "semi-style": ["error", "last"],
     "space-before-blocks": ["error", "always"],
