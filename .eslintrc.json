@@ -1,9 +1,15 @@
 {
-  "extends": ["./eslint-common.json"],
+  "extends": ["eslint:recommended",
+              "prettier"
+             ],
   "env": {"es6": true},
   "parserOptions": {
     "ecmaVersion": 6,
      "sourceType": "module"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
   },
   "globals": {
     "document": true,
